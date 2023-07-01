@@ -1,0 +1,79 @@
+{
+  "Topics": ["/arm_base_rotation_controller/joint_trajectory", "/joint_states","/cam_2/color/image_raw"],
+        "/arm_base_rotation_controller/joint_trajectory": {
+          "name": "abc",
+          "age": 17
+        },
+        "/joint_states": {
+          "name": "xyz",
+          "age": 18
+        },
+        "/cam_2/color/image_raw": {
+          "name": "alex",
+          "age": 19
+        }
+}
+
+
+//{
+//  "Topics": ["Topic1", "Topic2","Topic3","Topic4","Topic5","Topic6"],
+//  "Topic1": {
+//    "name": "abc",
+//    "age": 17
+//  },
+//  "Topic2": {
+//    "name": "xyz",
+//    "age": 18
+//  },
+//  "Topic3": {
+//    "name": "alex",
+//    "age": 19
+//  },
+//  "Topic4": {
+//    "name": "madelyn",
+//    "age": 20
+//  },
+//  "Topic5": {
+//    "name": "joe",
+//    "age": 27
+//  },
+//  "Topic6": {
+//    "name": "jassi",
+//    "age": 29
+//  }
+//}
+
+//write json object in the same oreder for Topics: jointTrajectory, jointState and image sensor_msgs, instead of Topic1, Topic2, Topic3, Topic4, Topic5,Topic6 with correct data members
+//
+//{
+//  "topic_name": "jointtrajectory",
+//  "message": {
+//    "header": {
+//      "stamp": {
+//        "sec": 0,
+//        "nanosec": 0
+//      },
+//      "frame_id": ""
+//    },
+//    "joint_names": ["joint1", "joint2", "joint3"],
+//    "points": [
+//      {
+//        "positions": [1.0, 2.0, 3.0],
+//        "velocities": [0.0, 0.0, 0.0],
+//        "accelerations": [0.0, 0.0, 0.0],
+//        "time_from_start": {
+//          "sec": 0,
+//          "nanosec": 0
+//        }
+//      }
+//    ]
+//  }
+//}
+
+//{
+//  "topic_name": "/joint_states",
+//  "message": {
+//    "name": "rahul",
+//    "age": 38
+//  }
+//}

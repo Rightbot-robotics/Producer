@@ -1,0 +1,4 @@
+2023-05-04 18:47:28.418  INFO [  main] ProducerApplication  : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.6 with PID 123292 (/home/rightbot/Project_1/Development-of-Data-pipeline/target/spring-rightbot-producer-0.0.1-SNAPSHOT.jar started by rightbot in /home/rightbot/Project_1/Development-of-Data-pipeline/target)
+2023-05-04 18:47:28.420 DEBUG [  main] ProducerApplication  : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-05-04 18:47:28.421  INFO [  main] ProducerApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-05-04 18:47:29.584  INFO [  main] ProducerApplication  : Started ProducerApplication in 1.399 seconds (process running for 1.839)
